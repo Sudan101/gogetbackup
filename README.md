@@ -1,6 +1,8 @@
 # gogetbackup
  gogetbackup - discover exposed backup/archive files named after a target's domain
-//
+--------------------
+-------------------
+------------------
 #Installation download main.go then ==> ( go build -o gogetbackup main.go )
 # Usage:
 #   gogetbackup -u https://0xsudan.com
