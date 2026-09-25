@@ -1,11 +1,11 @@
 # gogetbackup
-// gogetbackup - discover exposed backup/archive files named after a target's domain
+ gogetbackup - discover exposed backup/archive files named after a target's domain
 //
-// Usage:
-//   gogetbackup -u https://0xsudan.com
-//   gogetbackup -l live_hosts.txt -c 40 -o found.txt
-//   gogetbackup -u https://www.0xsudan.com -e ".zip,.tar,.sql.gz" -p "backup,db,site"
-//
+# Usage:
+#   gogetbackup -u https://0xsudan.com
+#   gogetbackup -l live_hosts.txt -c 40 -o found.txt
+#   gogetbackup -u https://www.0xsudan.com -e ".zip,.tar,.sql.gz" -p "backup,db,site"
+#--------------------------------------------------------------------------------------#
 // For each target it derives candidate base names from the hostname
 // (e.g. "0xsudan.com", "0xsudan", "www.oxsudan.com" -> "0xsudan") and combines them
 // with a list of archive/backup extensions and optional filename prefixes,
